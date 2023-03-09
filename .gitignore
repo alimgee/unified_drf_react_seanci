@@ -1,0 +1,20 @@
+
+frontend/node_modules/
+comments/__pycache__/
+comments/migrations/__pycache__/
+# default
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
+__pycache__/
+*.py[cod]
+node_modules/
+.github/
+cloudinary_python.txt
+
+# ignoring migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+db.sqlite3
